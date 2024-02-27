@@ -1,0 +1,29 @@
+.Board{
+    display: flex;
+    justify-content: center;
+    margin: 3em 0 0 0;
+}
+
+thead tr th{
+    font-size: 2em;
+    padding: 0 0 0.5em 0;
+}
+
+tfoot tr td{
+    font-size: 1.5em;
+    padding: 0.5em 0 0 0;
+}
+
+.tile{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    color: black;
+    font-size: 2.5rem;
+}
+
+.tile:hover{
+    box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.3);
+}
+
